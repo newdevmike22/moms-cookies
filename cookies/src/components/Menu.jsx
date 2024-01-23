@@ -1,6 +1,14 @@
-const Menu = () => {
+import MenuItem from "./MenuItem";
+
+const Menu = ({ items }) => {
     return (
-        <h1>Menu</h1>
+        <div className="section-center">
+            {items.map((menuItem) => {
+                return (
+                    <MenuItem key={menuItem.id} {...menuItem} />
+                )                
+            })}
+        </div>
     )
 };
 
