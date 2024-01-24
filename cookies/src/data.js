@@ -33,7 +33,7 @@ const menu = [
     },
     {
         id: 5,
-        title: "mom's double",
+        title: "chocolate fusion",
         category: "cookies",
         price: 1.99,
         img: "./images/double_chip.jpg",
