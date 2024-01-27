@@ -1,2 +1,2 @@
 # moms-cookies
- react project w/tailwind css
+ Imaginary bakery site created using React JS and Tailwind CSS.
