@@ -1,6 +1,6 @@
 const Categories = ({ categories, filterItems }) => {
     return (
-        <div className="mt-8 mr-0 mb-16 ml-0 flex wrap justify-center gap-4">
+        <div className="mt-8 mr-0 mb-16 ml-0 flex flex-wrap justify-center gap-4 sm:mt-12 sm:mb-20 md:gap-2 lg:gap-4 lg:mr-4 lg:ml-4">
             {categories.map((category) => {
                 return (
                     <button type="button" 
